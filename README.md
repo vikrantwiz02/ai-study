@@ -205,10 +205,10 @@ graph TD
     user[User]
 
     subgraph "AI Study Material Generator System"
-        frontend[Frontend SPA <br> (Next.js/React)]
-        api[Backend API <br> (Next.js API Routes)]
-        worker[Background Worker <br> (Inngest)]
-        db[Database <br> (Neon Postgres)]
+        frontend["Frontend SPA <br> (Next.js/React)"]
+        api["Backend API <br> (Next.js API Routes)"]
+        worker["Background Worker <br> (Inngest)"]
+        db["Database <br> (Neon Postgres)"]
     end
 
     subgraph "External Services"
